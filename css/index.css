@@ -1,13 +1,25 @@
 
 /* CSS reset */
-body {
-    font-family: "Iceland", sans-serif;
+*{
     margin: 0px;
     padding: 0px;
-    background: url(../img/bg4.jpg);
+    box-sizing: border-box;
+}
+body {
+    font-family: "Iceland", sans-serif;
+    /* margin: 0px;
+    padding: 0px; */
+    /* background: url(../img/bg4.jpg); */
+  background:
+    linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.55)),
+    url("../img/bg4.jpg");
     color: white;
-    background-size: 1500px 760px;
+    /* background-size: 1500px 760px; */
     /* background-repeat: no-repeat; */
+    background-size: cover;
+background-position: center top;
+background-repeat: no-repeat;
+background-attachment: fixed;
 }
 
 .left {
@@ -19,9 +31,10 @@ body {
 }
 
 .left img {
-    width: 98px;
+    width: 90px;
     filter: invert(100%);
-    border-radius: 30px;
+    border: 3px solid rgb(252, 162, 162);
+    border-radius: 50%;
 }
 
 .left div {
@@ -85,10 +98,10 @@ body {
 
 .container {
     border: 3px solid darkkhaki;
-    width: 350px;
-    margin: 100px 40px;
-    padding: 30px;
-    border-radius: 30px;
+    width: 400px;
+    margin: 120px 70px;
+    padding: 35px;
+    border-radius: 20px;
 }
 
 .container h1 {

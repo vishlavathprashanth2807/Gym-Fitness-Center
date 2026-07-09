@@ -1,0 +1,128 @@
+
+/* CSS reset */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Iceland", sans-serif;
+    /* margin: 0px;
+    padding: 0px; */
+    /* background: url(../img/bg4.jpg); */
+  background:
+    linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.55)),
+    url("../img/bg4.jpg");
+    color: white;
+    /* background-size: 1500px 760px; */
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+background-position: center top;
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+
+.left {
+    position: absolute;
+    display: inline-block;
+    /* border: 3px solid red; */
+    left: 30px;
+    top: 15px;
+}
+
+.left img {
+    width: 90px;
+    filter: invert(100%);
+    border: 3px solid rgb(252, 162, 162);
+    border-radius: 50%;
+}
+
+.left div {
+    text-align: center;
+    line-height: 20px;
+    font-size: 18px;
+}
+
+.mid {
+    display: block;
+    width: 43%;
+    margin: 15px auto;
+    /* border: 3px solid greenyellow; */
+}
+
+.right {
+    position: absolute;
+    right: 20px;
+    top: 22px;
+    display: inline-block;
+    /* border: 3px solid darkblue; */
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 22px;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 24px 10px;
+    /* display: inline-block; */
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    color: grey;
+    text-decoration: underline;
+}
+
+.btn {
+    margin: 0px 10px;
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+    border: 3px solid darkgray;
+    border-radius: 6px;
+    font-size: 20px;
+    cursor: pointer;
+    font-family: "Iceland", sans-serif;
+}
+
+.btn:hover {
+    background-color: rgb(64, 61, 61);
+}
+
+.container {
+    border: 3px solid darkkhaki;
+    width: 400px;
+    margin: 120px 70px;
+    padding: 35px;
+    border-radius: 20px;
+}
+
+.container h1 {
+    text-align: center;
+}
+
+.container button {
+    margin: 23px auto;
+    display: block;
+    width: 200px;
+    border-radius: 60px;
+}
+
+.form-group input {
+    text-align: center;
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    width: 300px;
+    border-radius: 20px;
+    font-size: 20px;
+    font-style: italic;
+    /* font-family: "Iceland", sans-serif; */
+}
